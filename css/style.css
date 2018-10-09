@@ -1,0 +1,286 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	margin:0 auto;
+
+}
+	
+.main-header h1{
+	margin: 0;
+	background-color: #00b5c9;
+	padding:15px;
+	color:white;
+}
+
+.titulo{
+	color: #00B5C9;
+}
+.container{
+	
+	display: flex;
+	flex-direction: row;
+}
+
+.container ul li{
+	list-style-type: none;
+
+}
+.info{
+	 margin-top: 40px;
+}
+
+.info-general{
+	width: 33.3333%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.cualidades{
+	display: inline;
+	padding-right: 44px;
+
+}
+
+.cualidades ul{
+	
+   	text-align: center;
+}
+.cualidades li{
+ 	display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+    border: 5px solid  #00B5C9;
+	border-width: 5 10px;
+	border-radius: 10px;
+	background-color: #00B5C9;
+	color: #fff;
+	font-size: 10px
+
+}
+
+.foto{
+	margin-top: 5%;
+	margin-bottom: 5%;
+    padding-left: 10%;
+    width: 80%;
+
+}
+.foto img{
+	text-align: center;
+
+}
+
+.columna1{
+	display: block;
+    margin-left: 25%;
+	float: left;
+	text-align: right;
+	list-style: none;
+	color: #00B5C9;
+}
+.columna2{
+	display: block;
+	margin-left: 10px;
+	float:left;
+	text-align:left;
+
+}
+.foto img{
+	width: 100%;
+}
+
+.metas ul li{
+	list-style-type: disc;
+
+	margin-left: 20px;
+}
+
+.biografia{
+	background-color: #F2F2F2;
+}
+
+.info-general ul{
+	padding-left: 0;
+}
+
+.motivaciones{
+	margin-top: 40px;
+}
+
+.motivaciones ul li{
+	width: 70%;
+	margin-bottom: 5px;
+}
+
+.num3{
+	padding-left: 30px;
+
+}
+.l1{
+	background-color: #CCCCCC;
+}
+
+.l2{
+	background-color: #F2F2F2;
+}
+
+.historial ul li{
+	list-style-type: disc;
+
+	margin-left: 20px;
+}
+.tecnologias ul li{
+	margin-bottom: 10px;
+}
+
+.historial p{
+	margin: 0;
+}
+.z{
+	color:  #00b5c9;
+}
+.barra-web{
+	background-color: #00b5c9;
+	width: 70%;
+}
+
+.barra-movil{
+	background-color: #00b5c9;
+	width: 10%;
+}
+
+.barra-bd{
+	background-color: #00b5c9;
+	width: 60%;
+}
+
+.barra-red{
+	width: 70%;
+	background-color: #00b5c9;
+}
+
+
+.social a{
+	font-size: 60px;
+	color: #00b5c9;
+	margin-right: 15%;
+	margin-top: 10%;
+	margin-left: 20px;
+	display: inline-block;
+
+}
+.social{
+	text-align: right;
+}
+footer{
+	margin: 0;
+	background-color: #00b5c9;
+	padding:5px;
+	font-size: 15px;
+	color:white;
+	text-align: center;
+}
+
+@media screen and (max-width: 1262px){
+	.cualidades ul li{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10px;
+	}
+	.info-general{
+		margin-top: 0px;
+	}
+
+	.social{
+	display: flex;
+	}
+}
+
+@media screen and (max-width: 913px){
+	.main-header h1{
+		text-align: center;
+	}
+	.titulo{
+		text-align: center;
+	}
+
+	.container{
+	 
+		display: flex;
+		flex-direction: column;
+		margin:auto;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+	 .container ul li{
+	 	font-size: 22px;
+	 }
+	 .motivaciones{
+
+		 margin-left: 20%;
+	 }
+
+	 .metas{
+	 	    margin-left: 20%;
+	 }
+
+	 .metas h3{
+	 	margin-right: 30%;
+	 }
+	 .biografia {
+	 	    margin-left: 10px;
+	 }
+
+	 .biografia article{
+	 	font-size: 22px;
+	 }
+	.social{
+		margin-left: 20%;
+	}
+	.info{
+		margin-left: 12%;
+	}
+	.historial{
+		margin-bottom:0px;
+	}
+	.info-general{
+		width: 100%;
+	}
+	.cualidades ul li{
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		padding-left: 0px;
+		font-size: 20px;
+		margin-left: 33%;
+		width: 40%;
+	}	
+
+
+}
+
+
+@media screen and (max-width: 436px){
+
+	.info {
+    	margin-left: -13%;
+	}
+
+	.social{
+		margin-left: 0;
+	}
+}
+
+
+@media screen and (max-width: 340px){
+
+	.info {
+    	margin-left: -25%;
+	}
+
+	.social{
+		
+   		margin-left: -35px;
+	}
+}
